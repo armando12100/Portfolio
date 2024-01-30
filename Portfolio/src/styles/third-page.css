@@ -1,0 +1,95 @@
+.third-page-container {
+    height: 100vh;
+    background: linear-gradient(to right, #e66465, #9198e5);
+    display: flex;
+}
+
+
+.third-page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-header {
+    color: white;
+    padding-top: 5%;
+}
+
+.contact-div {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4.5rem;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms > input {
+    min-width: 20rem;
+    margin-top: 2rem;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    padding-right: 2rem;
+    max-width: 9rem;
+    color: white;
+}
+
+.labels > label {
+    padding-top: 2.09rem;
+    font-weight: bold;
+    padding-bottom: 1.2rem;
+}
+
+@media screen and (max-width: 850px){
+    .forms > input {
+        min-width: 13rem;
+    }
+    
+}
+
+.sign-up-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-bottom: 2rem;
+}
+
+.sign-up-button {
+    font-size: 1.3rem;
+    background-color: white;
+    color: #9198e5;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    border-radius: .5rem;
+}
+
+.sign-up-button:hover {
+    color: #e66465;
+    cursor: pointer;
+    background-color: white;
+    border-color: #e66465;
+}
+
+.sign-up-profile-pic {
+    padding-top: 1rem;
+}
+
+.contact-message-box {
+    height: 6rem;
+    margin-top: 1rem;
+}
+
+.error-message {
+    font-size: .6rem;
+    color: red;
+}
