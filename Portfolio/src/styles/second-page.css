@@ -1,6 +1,6 @@
 .second-page-container {
     height: 100vh;
-    background-color: white;
+    background-color: rgb(246, 246, 255);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -8,13 +8,12 @@
 
 .cards-header {
     color:  rgb(0, 128, 128);
-    display: inline-block;
-    transform: translateY(0px);
-    transition: transform .5s;
+    background-color: white;
     cursor: pointer;
-    word-wrap: nowrap;
     font-size: 3rem;
-    margin-top: 2rem;
+    border-radius: 1rem;
+    width: 95%;
+    margin-left: 2.5%;
 }
 
 .cards-container {
@@ -24,7 +23,6 @@
     flex-direction: row;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-top: 10%;
 }
 
 .projects-header {
@@ -39,12 +37,6 @@
 }
 }
 
-
-@media screen and (max-width: 800px) {
-    .cards-container{
-        margin-top: 3%;
-}
-}
 
 .card-paragraph {
     color: black;

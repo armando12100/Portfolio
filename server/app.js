@@ -16,4 +16,4 @@ app.get("/", (req, res) => {
     res.send("hi")
 })
 
-mongoose.connect("mongodb+srv://armando12100:Jackie22@portfolio.0z2nggn.mongodb.net/Portfolio?retryWrites=true&w=majority")
+// mongoose.connect("mongodb+srv://armando12100:Jackie22@portfolio.0z2nggn.mongodb.net/Portfolio?retryWrites=true&w=majority")

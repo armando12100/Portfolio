@@ -4,7 +4,7 @@ import portfolio from "../videos/Portfolio - Google Chrome 2023-08-04 14-23-45.m
 
 export default [
     {
-        title: "Golfipino",
+        title: "365 Fitness",
         id: 1,
         paragraph: "Product Website",
         video: video,
@@ -17,9 +17,9 @@ export default [
         paragraph: "Portfolio Project",
         video: portfolio,
     },{
-        title: "Golfipino",
+        title: "FakeFlix",
         id: 3,
-        paragraph: "MySql App",
+        paragraph: "Netflix Clone",
         video: video
     }
 ]

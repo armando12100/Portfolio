@@ -12,18 +12,15 @@
 
 .contact-header {
     color: white;
-    padding-top: 5%;
 }
 
 .contact-div {
     text-align: center;
-    padding-bottom: 2%;
 }
 
 .form-container {
     display: flex;
     justify-content: center;
-    padding-bottom: 4.5rem;
 }
 
 .forms {
@@ -33,7 +30,6 @@
 
 .forms > input {
     min-width: 20rem;
-    margin-top: 2rem;
 }
 
 .labels {
