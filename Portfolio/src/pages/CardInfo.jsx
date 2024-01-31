@@ -1,5 +1,5 @@
 import video from "../videos/Golfipino - Google Chrome 2023-07-31 19-46-24.mp4"
-import portfolio from "../videos/Portfolio - Google Chrome 2023-08-04 14-23-45.mp4"
+import portfolio from "../videos/Portfolio - Google Chrome 2024-01-31 01-21-13.mp4"
 
 
 export default [
@@ -14,7 +14,7 @@ export default [
     {
         title: "Portfolio",
         id: 2,
-        paragraph: "Portfolio Project",
+        paragraph: "Portfolio",
         video: portfolio,
     },{
         title: "FakeFlix",

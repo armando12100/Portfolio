@@ -13,10 +13,10 @@ export default function Header() {
                         <Link to="skills" spy={true} smooth={true} offset={0} duration={500}>Skills</Link>
                     </div>
                     <div>
-                        <Link to="projects" spy={true} smooth={true} offset={-19} duration={500}>Projects</Link>
+                        <Link to="projects" spy={true} smooth={true} offset={0} duration={500}>Projects</Link>
                     </div>
                     <div>
-                        <Link to="contact" spy={true} smooth={true} offset={-26} duration={500}>Contact</Link>
+                        <Link to="contact" spy={true} smooth={true} offset={0} duration={500}>Contact</Link>
                     </div>
                 </div>
             </div>

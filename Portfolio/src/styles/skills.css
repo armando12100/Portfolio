@@ -11,7 +11,7 @@
 }
 
 .skills-header {
-    color:  rgb(0, 128, 128);
+    color: rgb(99, 99, 255);
     background-color: white;
     cursor: pointer;
     font-size: 3rem;
@@ -25,11 +25,22 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding-left: 2rem;
+    border-radius: 1rem;
+    width: 95%;
+    margin-left: 1.5%;
+    padding-left: 1rem;
+    margin-top: 10%;
 }
 
-h2 {
+h3 {
+    color: rgb(99, 99, 255);
+    margin-top: 2.5rem;
+}
+
+.mantra {
     margin: 0;
+    font-weight: bolder;
+    font-size: 2.5rem;
 }
 
 .skills-paragraph {
@@ -39,4 +50,67 @@ h2 {
 
 .paragraph-container{
     display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 1.5rem;
 }
+
+@media screen and (max-width: 789px) {
+    .paragraph-container{
+        flex-direction: column;
+  }
+  }
+
+.skills-btn{
+    color: white;
+    background-color: rgb(84, 84,250);
+    border-radius: .3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .7rem 2rem;
+}
+
+.skills-btn:hover {
+    color: rgb(84,84,250);
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid rgb(105, 105, 245);
+  }
+
+  .hidden{
+    color: rgb(84,84,250);
+  }
+
+  .skills-cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin-top: 5rem;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 789px) {
+    .skills-cards-container{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+  }
+  }
+  
+  
+
+  .skills-cards-wrapper{
+   display: flex;
+   box-shadow: 0px 0px 3px 3px rgb(243, 242, 242);
+   width: 60%;
+   margin-bottom: 2rem;
+   padding-left: 1rem;
+   padding-top: .3rem;
+   padding-bottom: .3rem;
+  }
+
+  .skills-image {
+    width: 48px;
+    padding-right: 1rem;
+    padding-left: .3rem;
+  }
+  

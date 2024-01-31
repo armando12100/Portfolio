@@ -72,8 +72,16 @@ body {
   flex-direction: column;
 }
 
+
+
 .about-container > h1 {
   font-weight: bold;
+}
+
+@media screen and (max-width: 789px) {
+  .about-container>h1{
+      font-size: 1.5rem;
+}
 }
 
 .me-pic-container{
