@@ -9,7 +9,7 @@ export default [
         id: 1,
         paragraph: "365 Fitness",
         video: fitness,
-        websiteLink: "https://golfipino.com/",
+        websiteLink: "https://365ftness.netlify.app/",
         githubLink: "https://github.com/armando12100/git-github.com-armando12100-Website-Practice"
     },
     {
@@ -17,6 +17,7 @@ export default [
         id: 2,
         paragraph: "Portfolio",
         video: portfolio,
+        websiteLink:"https://ArmandosPortfolio.netlify.app/",
         githubLink:"https://github.com/armando12100/Portfolio"
     },{
         title: "FakeFlix",
