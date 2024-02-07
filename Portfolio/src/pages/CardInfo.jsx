@@ -17,7 +17,7 @@ export default [
         id: 2,
         paragraph: "Portfolio",
         video: portfolio,
-        websiteLink:"https://ArmandosPortfolio.netlify.app/",
+        websiteLink:"https://armandosportfolio.netlify.app/",
         githubLink:"https://github.com/armando12100/Portfolio"
     },{
         title: "FakeFlix",
