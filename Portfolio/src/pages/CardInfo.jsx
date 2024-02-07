@@ -1,13 +1,14 @@
-import video from "../videos/Golfipino - Google Chrome 2023-07-31 19-46-24.mp4"
-import portfolio from "../videos/Portfolio - Google Chrome 2024-01-31 01-21-13.mp4"
+import fitness from "../videos/365 Fitness - Google Chrome 2024-02-06 14-04-36.mp4"
+import portfolio from "../videos/Portfolio.mp4"
+import fakeflix from "../videos/FakeFlix.mp4"
 
 
 export default [
     {
         title: "365 Fitness",
         id: 1,
-        paragraph: "Product Website",
-        video: video,
+        paragraph: "365 Fitness",
+        video: fitness,
         websiteLink: "https://golfipino.com/",
         githubLink: "https://github.com/armando12100/git-github.com-armando12100-Website-Practice"
     },
@@ -16,10 +17,13 @@ export default [
         id: 2,
         paragraph: "Portfolio",
         video: portfolio,
+        githubLink:"https://github.com/armando12100/Portfolio"
     },{
         title: "FakeFlix",
         id: 3,
         paragraph: "Netflix Clone",
-        video: video
+        video: fakeflix,
+        websiteLink:"https://bucolic-sherbet-380004.netlify.app/",
+        githubLink:"https://github.com/armando12100/netflix_clone"
     }
 ]

@@ -6,9 +6,34 @@
     text-align: center;
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 815px) {
     .second-page-container{
-        height: 125vh;
+        padding-top: 55%;
+}
+}
+
+
+@media screen and (max-width: 1500px) {
+    .second-page-container{
+        padding-top: 20%;
+}
+}
+
+@media screen and (max-width: 1300px) {
+    .second-page-container{
+        padding-top: 25%;
+}
+}
+
+@media screen and (max-width: 850px) {
+    .second-page-container{
+        padding-top: 30%;
+}
+}
+
+@media screen and (max-width: 790px) {
+    .second-page-container{
+        padding-top: 65%;
 }
 }
 
@@ -32,7 +57,7 @@
     padding-top: 1rem;
     padding-bottom: 1.5rem;
     background-color: white;
-    margin-top: 15%;
+    margin-top: 5%;
     border-radius: 1rem;
     width: 95%;
     margin-left: 1%;

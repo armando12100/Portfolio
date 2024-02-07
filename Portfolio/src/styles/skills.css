@@ -96,8 +96,6 @@ h3 {
   }
   }
   
-  
-
   .skills-cards-wrapper{
    display: flex;
    box-shadow: 0px 0px 3px 3px rgb(243, 242, 242);
@@ -108,9 +106,20 @@ h3 {
    padding-bottom: .3rem;
   }
 
+  @media screen and (max-width: 550px) {
+    .skills-title{
+        font-size: .8rem;
+}
+}
+
   .skills-image {
     width: 48px;
     padding-right: 1rem;
     padding-left: .3rem;
   }
   
+  @media screen and (max-width: 550px) {
+    .skills-image{
+        width: 32px;
+}
+}

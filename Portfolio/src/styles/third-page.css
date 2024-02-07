@@ -6,6 +6,27 @@
     text-align: center;
 }
 
+@media screen and (max-width: 1500px) {
+    .third-page-container{
+        margin-top: 15%;
+}
+}
+
+@media screen and (max-width: 815px) {
+    .third-page-container{
+        padding-top: 15%;
+}
+}
+
+@media screen and (max-width: 545px) {
+    .third-page-container{
+        padding-top: 53%;
+}
+}
+
+
+
+
 .contact-header {
     color: rgb(99, 99, 255);
     background-color: white;
@@ -21,20 +42,18 @@
     background-color: white;
     border-radius: 1rem;
     margin-left: 2.5%;
-    margin-top: 10%;
+    margin-top: 5%;
     display: flex;
+    justify-content: center;
 }
 
 .contact-container {
-    width: 50%;
     padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-@media screen and (max-width: 645px) {
-    .contact-container{
-        width: 65%;
-  }
-  }
 
 
 .contact-flex {
@@ -44,6 +63,7 @@
     box-shadow: 0px 0px 3px 3px rgb(243, 242, 242);
     padding: .5rem 2rem;
     align-items: center;
+    min-width: 12.7rem;
 }
 
 .contact-flex>h2 {
@@ -61,39 +81,6 @@
         font-size: .8rem;
   }
   }
-
-
-.bitmoji-container {
-    width: 50%;
-}
-
-.bitmoji {
-    border-radius: 50%;
-    height: 30rem;
-}
-
-@media screen and (max-width: 855px) {
-    .bitmoji{
-        height: 15rem;
-  }
-  }
-
-  @media screen and (max-width: 855px) {
-    .bitmoji-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 30%;
-  }
-  }
-
-  @media screen and (max-width: 645px) {
-    .bitmoji{
-        height: 8rem;
-  }
-  }
-
-
 
 .contact-icons {
     width: 64px;

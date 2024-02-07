@@ -29,9 +29,9 @@ export default function ThirdPage() {
                     </div>
                 </div>
 
-                <div className="bitmoji-container">
+                {/* <div className="bitmoji-container">
                     <img src={bitjomi} alt="" className="bitmoji" />
-                </div>
+                </div> */}
 
             </div>
         </div>

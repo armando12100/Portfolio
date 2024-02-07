@@ -6,7 +6,7 @@ import Header from "./Header";
 import Skills from "./skills";
 import SecondPage from "./secondPage";
 import ThirdPage from "./thirdPage";
-import Me from "../images/me.jpg"
+import { Link } from "react-scroll"
 
 export default function Homepage() {
 
@@ -15,26 +15,29 @@ export default function Homepage() {
       <Header />
       <div className="first-page-container" id="home">
 
-          <div className="about-container">
+        <div className="about-container">
 
-            <h1>
-              Front End Developer
-            </h1>
+          <p className="about-header">
+            Front End Developer
+          </p>
 
-            <p className="about-paragraph">
-              Hello, I'm Armando Sanchez, a self taught front-end developer specializeing in building and designing exceptional
-              web experiences.
-            </p>
-            <div className="about-btn-container">
-              <a href="https://github.com/dashboard" className="link">
+          <p className="about-paragraph">
+            Hello, I'm Armando Sanchez, a self taught front-end developer specializeing in building and designing exceptional
+            web experiences.
+          </p>
+          <div className="about-btn-container">
+            <a href="https://github.com/dashboard" className="link">
               <button className="about-btn">Explore My Github</button>
-              </a>
-            </div>
+            </a>
+            <Link to="projects" spy={true} smooth={true} offset={-19} duration={500}>
+              <button className="projects-btn"> My Projects </button>
+            </Link>
           </div>
+        </div>
 
-          <div className="me-pic-container">
+        {/* <div className="me-pic-container">
             <img src={Me} alt="" className="me" />
-          </div>
+          </div> */}
 
       </div>
       <Skills />

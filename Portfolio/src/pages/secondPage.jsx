@@ -17,9 +17,9 @@ export default function SecondPage() {
         )
     })
     return (
-        <div className="second-page-container" id="projects">
+        <div className="second-page-container">
 
-            <div className="projects-header">
+            <div className="projects-header" id="projects">
                 <h1 className="cards-header">Projects</h1>
             </div>
 
