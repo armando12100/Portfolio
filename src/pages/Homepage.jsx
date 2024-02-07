@@ -30,7 +30,7 @@ export default function Homepage() {
               <button className="about-btn">Explore My Github</button>
             </a>
             <Link to="projects" spy={true} smooth={true} offset={-19} duration={500}>
-              <button className="projects-btn"> My Projects </button>
+              <button className="projects-btn"> Explore My Projects </button>
             </Link>
           </div>
         </div>
