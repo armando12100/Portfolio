@@ -27,10 +27,10 @@ export default function Homepage() {
           </p>
           <div className="about-btn-container">
             <a href="https://github.com/dashboard" className="link">
-              <button className="about-btn">Explore My Github</button>
+              <button className="about-btn">Github</button>
             </a>
             <Link to="projects" spy={true} smooth={true} offset={-19} duration={500}>
-              <button className="projects-btn"> Explore My Projects </button>
+              <button className="projects-btn">Projects</button>
             </Link>
           </div>
         </div>
