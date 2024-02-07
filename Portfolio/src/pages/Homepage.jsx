@@ -22,7 +22,7 @@ export default function Homepage() {
           </p>
 
           <p className="about-paragraph">
-            Hello, I'm Armando Sanchez, a self taught front-end developer specializeing in building and designing exceptional
+            Hello, I'm Armando Sanchez, a self taught front-end developer specializing in building and designing exceptional
             web experiences.
           </p>
           <div className="about-btn-container">
