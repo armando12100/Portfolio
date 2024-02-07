@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap");
+
+:root {
+  --dark: #1d1d1d;
+  --light: #fff;
+  --green: #28a92b;
+  --purple: #8d3dae;
+}
+
+body {
+  background-color: rgb(246, 246, 255);
+  font-family: "Signika Negative", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.header {
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 1rem;
+  position: sticky; top: 0;
+  z-index: 3;
+  justify-content: space-between;
+  max-width: 90%;
+  margin-left: 5%;
+  padding-left: 1rem;
+}
+
+.link-container {
+  display: flex;
+}
+
+.link-container > div {
+  margin-right: 1rem;
+}
+
+.link-container>div:hover {
+  color: rgb(0, 128, 128);
+  cursor: pointer;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: rgb(0, 128, 128);
+}
+
+.first-page-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.hi {
+  font-size: 1.5rem;
+  color: rgb(0, 128, 128)
+}
+
+.about-header{
+  font-size: 3rem;
+}
+
+.about-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.about-header {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 789px) {
+  .about-header{
+      font-size: 2rem;
+}
+}
+
+.me-pic-container{
+  justify-content: center;
+  display: flex;
+  width: 45%;
+}
+
+@media screen and (max-width: 750px) {
+  .me-pic-container{
+      height: 0;
+}
+}
+
+.me {
+  width: 90%;
+  object-fit: contain;
+}
+
+.about-paragraph {
+  line-height: 1.5rem;
+  margin-left: 3rem;
+  padding-right: .5rem;
+  text-align: center;
+  width: 80%;
+}
+
+.about-btn-container {
+  margin-top: 10%;
+  color: rgb(0, 128, 128);
+  font-size: 1.7rem;
+  border-radius: .5rem;
+  font-weight: bold;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.about-btn {
+  color: white;
+  background-color: rgb(84, 84, 250);
+  border-radius: .3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: .5rem;
+}
+
+.about-btn:hover {
+  color: rgb(84,84, 250);
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid rgb(105, 105, 245);
+}
+
+.projects-btn {
+  color: white;
+  background-color: rgb(84, 84, 250);
+  border-radius: .3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: .5rem;
+  margin-left: 1rem;
+}
+
+.projects-btn:hover {
+  color: rgb(84,84, 250);
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid rgb(105, 105, 245);
+}
+
