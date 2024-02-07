@@ -107,6 +107,13 @@ h3 {
   }
 
   @media screen and (max-width: 550px) {
+    .skills-cards-wrapper{
+        padding-left: 0;
+        padding-right: .8rem;
+}
+}
+
+  @media screen and (max-width: 550px) {
     .skills-title{
         font-size: .8rem;
 }

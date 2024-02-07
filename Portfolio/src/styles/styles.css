@@ -76,19 +76,14 @@ body {
   flex-direction: column;
 }
 
-@media screen and (max-width: 750px) {
-  .about-container{
-      padding-left: 3rem;
-}
-}
 
 .about-header {
   font-weight: bold;
 }
 
 @media screen and (max-width: 789px) {
-  .abouheader{
-      font-size: 1.5rem;
+  .about-header{
+      font-size: 2rem;
 }
 }
 
