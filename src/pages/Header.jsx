@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <>
             <div className="header">
-                <div>Armando Sanchez</div>
+                <div className="name">Armando Sanchez</div>
                 <div className="link-container">
                     <div>
                         <Link to="home" spy={true} smooth={true} offset={0} duration={500}>Home</Link>
