@@ -3,7 +3,7 @@ export default function Card(props) {
     return (
         <div className="card">
             <div className="video-container">
-                <video src={props.video} type="video/mp4" className="video" autoPlay loop muted></video>
+                <img src={props.image} alt="" className="image"/>
                 {/* <div className="overlay">
                     <div className="css">CSS</div>
                     <div className="react">React</div>

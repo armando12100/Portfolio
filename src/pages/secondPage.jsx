@@ -12,7 +12,7 @@ export default function SecondPage() {
                 paragraph={item.paragraph}
                 website={item.websiteLink}
                 github={item.githubLink}
-                video={item.video}
+                image={item.image}
             />
         )
     })
