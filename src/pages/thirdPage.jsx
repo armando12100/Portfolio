@@ -2,6 +2,7 @@ import bitjomi from "../images/bitmoji.jpg"
 import email from "../icons/gmail.png"
 import phone from "../icons/telephone.png"
 import linkedin from "../icons/linkedin.png"
+import youtube from "../icons/youtube.png"
 
 export default function ThirdPage() {
 
@@ -25,6 +26,12 @@ export default function ThirdPage() {
                         <img src={linkedin} alt="" className="contact-icons" />
                         <a href="https://www.linkedin.com/in/armando-sanchez-3067761a7/">
                             <button className="link-btn">Linked In</button>
+                        </a>
+                    </div>
+                    <div className="contact-flex">
+                        <img src={youtube} alt="" className="contact-icons" />
+                        <a href="https://www.youtube.com/@asan590/videos">
+                            <button className="link-btn">My Channel</button>
                         </a>
                     </div>
                 </div>
