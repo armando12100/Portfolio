@@ -17,7 +17,7 @@ export default function Card(props) {
             </div>
             <div className="link-container">
                 <a href={props.website} className="card-link">Website Link</a>
-                <a href={props.github} className="card-link">Source Code</a>
+                <a href={props.github} className="card-link">Github</a>
             </div>
         </div>
     )
